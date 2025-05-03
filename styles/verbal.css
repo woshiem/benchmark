@@ -1,0 +1,19 @@
+
+.all .game-area h3{
+    font-size: 1.3rem;
+}
+ .button-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+ }
+
+ .top-container{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+ }
+
+ #icon1{
+    font-size: 1rem;
+ }

@@ -1,0 +1,218 @@
+
+
+.game-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(46, 98, 189);
+    width: 100%;
+    height: 60vh;
+    gap: 15px;
+    color: white;
+    user-select: none;
+}
+
+.game-area i{
+    font-size: 7rem;
+}
+.game-area h2{
+    font-size: 3rem;
+}
+
+.game-area h3{
+    font-size: 2rem;
+}
+
+.game-area p{
+    font-size: 1.5rem;
+    color: #b5b5b5;
+}
+
+.bottom{
+  display: grid;
+  grid-template-columns: repeat(3, 300px); 
+  gap: 25px; 
+  justify-content: center;
+  align-items: center;
+  width: 80%; 
+  margin: 80px auto; 
+  
+}
+
+.bottom div{
+  background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 25px rgba(151, 217, 255, 0.6);
+    gap: 20px;
+}
+
+.bottom div i{
+  font-size: 3rem;
+  color: rgb(46, 98, 189);
+}
+.bottom div h5{
+  color: rgba(53, 36, 50, 0.844);
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+.bottom div p{
+  font-size: 1.1rem;
+  color: #161616;
+}
+
+@media only screen and (max-width: 1050px){
+
+  .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  
+  .bottom div{
+      box-shadow: 2px 2px 15px rgba(151, 217, 255, 0.6);
+      width: 250px;
+      height: 250px;
+  }
+  
+  .bottom div i{
+    font-size: 3rem;
+  }
+  .bottom div h5{
+    font-size: 1.4rem;
+  }
+  .bottom div p{
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 675px){
+
+  .bottom{
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .bottom div{
+    width: 200px;
+    height: 200px;
+}
+
+.bottom div i{
+  font-size: 2.5rem;
+}
+.bottom div h5{
+  font-size: 1.25rem;
+}
+.bottom div p{
+  font-size: 0.9rem;
+}
+
+}
+
+@media only screen and (max-width: 550px){
+
+  .game-area i{
+    font-size: 5.5rem;
+}
+.game-area h2{
+    font-size: 1.8rem;
+}
+
+.game-area h3{
+    font-size: 1.3rem;
+}
+
+.game-area p{
+    font-size: 1.15rem;
+    color: #b5b5b5;
+}
+
+
+.bottom div{
+  width: 150px;
+  height: 150px;
+  gap: 5px;
+}
+
+.bottom div i{
+font-size: 1.9rem;
+}
+.bottom div h5{
+font-size: 1.1rem;
+}
+.bottom div p{
+font-size: 0.8rem;
+}
+
+}
+
+@media only screen and (max-width: 420px){
+
+  .game-area h2{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .game-area h3{
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .game-area p{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .bottom div{
+    width: 250px;
+    height: 250px;
+    gap: 15px;
+  }
+  
+  .bottom div i{
+  font-size: 2.5rem;
+  }
+  .bottom div h5{
+  font-size: 1.5rem;
+  }
+  .bottom div p{
+  font-size: 1rem;
+  }
+
+}
+
+@media only screen and (max-width: 300px){
+
+  .bottom div{
+    width: 180px;
+    height: 180px;
+    gap: 10px;
+  }
+  
+  .bottom div i{
+  font-size: 2.3rem;
+  }
+  .bottom div h5{
+  font-size: 1.3rem;
+  }
+  .bottom div p{
+  font-size: 0.9rem;
+  }
+
+}

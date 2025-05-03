@@ -1,0 +1,20 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 242, 218);
+    gap: 20px;
+}
+footer p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: hsl(0, 0%, 25%);
+}
+
+footer img{
+    width: 35px;
+    height: auto;
+}
+
